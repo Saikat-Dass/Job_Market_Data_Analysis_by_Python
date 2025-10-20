@@ -47,7 +47,7 @@ fig.suptitle('\u0330'.join('Percentage of skills in US Job Postings'), fontsize=
 fig.tight_layout()
 plt.show()
 ```
-![Bar graph visualizing the salary for the top 3 data roles](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/1ea211186561a1e3475033d03e197a8508af09b6/Project%20Python/Bar%20graph%20visualizing%20the%20salary%20for%20the%20top%203%20data%20roles.png)
+![Bar graph visualizing the salary for the top 3 data roles](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/d5677e076161daa0e30aad1d096d8a6875721433/Project%20Python/Project_Images/Bar%20graph%20visualizing%20the%20salary%20for%20the%20top%203%20data%20roles.png)
 
 <h3>Insights</h3>
 
@@ -69,7 +69,7 @@ for i in range(5):
 plt.tight_layout()
 plt.show()
 ```
-![Line graph visualizing the trending top skills](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/1722dc5c341bdb5701aa87564ac88c1a2f602c75/Project%20Python/Line%20graph%20visualizing%20the%20trending%20top%20skills.png)
+![Line graph visualizing the trending top skills](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/d5677e076161daa0e30aad1d096d8a6875721433/Project%20Python/Project_Images/Line%20graph%20visualizing%20the%20trending%20top%20skills.png)
 
 <h3>Insights</h3>
 
@@ -91,7 +91,7 @@ plt.gca().xaxis.set_major_formatter(plt.FuncFormatter(lambda y, pos: f'${int(y/1
 plt.tight_layout(h_pad= 2.5)
 plt.show()
 ```
-![Box plot visualizing the salary distributions](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/1722dc5c341bdb5701aa87564ac88c1a2f602c75/Project%20Python/Box%20plot%20visualizing%20the%20salary%20distributions.png)
+![Box plot visualizing the salary distributions](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/d5677e076161daa0e30aad1d096d8a6875721433/Project%20Python/Project_Images/Box%20plot%20visualizing%20the%20salary%20distributions.png)
 
 <h3>Insights</h3>
 
@@ -123,7 +123,7 @@ sns.set_theme(style='ticks')
 plt.tight_layout(h_pad=2)
 plt.show()
 ```
-![highest paid skills and most in-demand skills](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/1722dc5c341bdb5701aa87564ac88c1a2f602c75/Project%20Python/highest%20paid%20skills%20and%20most%20in-demand%20skills.png)
+![highest paid skills and most in-demand skills](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/d5677e076161daa0e30aad1d096d8a6875721433/Project%20Python/Project_Images/highest%20paid%20skills%20and%20most%20in-demand%20skills.png)
 
 <h3>Insights</h3>
 
@@ -152,7 +152,7 @@ plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda y, pos: f'${int(y/1
 plt.tight_layout()
 plt.show()
 ```
-![A scatter plot visualizing the most optimal skills (high paying & high demand)](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/1722dc5c341bdb5701aa87564ac88c1a2f602c75/Project%20Python/A%20scatter%20plot%20visualizing%20the%20most%20optimal%20skills%20(high%20paying%20%26%20high%20demand).png)
+![A scatter plot visualizing the most optimal skills (high paying & high demand)](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/d5677e076161daa0e30aad1d096d8a6875721433/Project%20Python/Project_Images/A%20scatter%20plot%20visualizing%20the%20most%20optimal%20skills%20(high%20paying%20%26%20high%20demand).png)
 
 <h3>Insights</h3>
 
