@@ -47,6 +47,14 @@ fig.suptitle('\u0330'.join('Percentage of skills in US Job Postings'), fontsize=
 fig.tight_layout()
 plt.show()
 ```
+![Bar graph visualizing the salary for the top 3 data roles](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/1ea211186561a1e3475033d03e197a8508af09b6/Project%20Python/Bar%20graph%20visualizing%20the%20salary%20for%20the%20top%203%20data%20roles.png)
+
+<h3>Insights</h3>
+
+- SQL is the most requested skill for Data Analysts and Data Scientists, with it in over half the job postings for both roles. For Data Engineers, Python is the most sought-after skill, appearing in 68% of job postings.
+- Data Engineers require more specialized technical skills (AWS, Azure, Spark) compared to Data Analysts and Data Scientists who are expected to be proficient in more general data management and analysis tools (Excel, Tableau).
+- Python is a versatile skill, highly demanded across all three roles, but most prominently for Data Scientists (72%) and Data Engineers (65%).
+
 <h2>2. How are in-demand skills trending for Data Analysts?</h2>
 
 ```python
@@ -61,6 +69,14 @@ for i in range(5):
 plt.tight_layout()
 plt.show()
 ```
+![Line graph visualizing the trending top skills](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/1722dc5c341bdb5701aa87564ac88c1a2f602c75/Project%20Python/Line%20graph%20visualizing%20the%20trending%20top%20skills.png)
+
+<h3>Insights</h3>
+
+- SQL remains the most consistently demanded skill throughout the year, although it shows a gradual decrease in demand.
+- Excel experienced a significant increase in demand starting around September, surpassing both Python and Tableau by the end of the year.
+- Both Python and Tableau show relatively stable demand throughout the year with some fluctuations but remain essential skills for data analysts. Power BI, while less demanded compared to the others, shows a slight upward trend towards the year's end.
+
 <h2>3. How well do jobs and skills pay for Data Analysts?</h2>
 
 ```python
@@ -75,6 +91,14 @@ plt.gca().xaxis.set_major_formatter(plt.FuncFormatter(lambda y, pos: f'${int(y/1
 plt.tight_layout(h_pad= 2.5)
 plt.show()
 ```
+![Box plot visualizing the salary distributions](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/1722dc5c341bdb5701aa87564ac88c1a2f602c75/Project%20Python/Box%20plot%20visualizing%20the%20salary%20distributions.png)
+
+<h3>Insights</h3>
+
+- There's a significant variation in salary ranges across different job titles. Senior Data Scientist positions tend to have the highest salary potential, with up to $600K, indicating the high value placed on advanced data skills and experience in the industry.
+- Senior Data Engineer and Senior Data Scientist roles show a considerable number of outliers on the higher end of the salary spectrum, suggesting that exceptional skills or circumstances can lead to high pay in these roles. In contrast, Data Analyst roles demonstrate more consistency in salary, with fewer outliers.
+- The median salaries increase with the seniority and specialization of the roles. Senior roles (Senior Data Scientist, Senior Data Engineer) not only have higher median salaries but also larger differences in typical salaries, reflecting greater variance in compensation as responsibilities increase.
+
 ### Highest Paid & Most Demanded Skills for Data Analysts
 
 ```python
@@ -99,6 +123,14 @@ sns.set_theme(style='ticks')
 plt.tight_layout(h_pad=2)
 plt.show()
 ```
+![highest paid skills and most in-demand skills](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/1722dc5c341bdb5701aa87564ac88c1a2f602c75/Project%20Python/highest%20paid%20skills%20and%20most%20in-demand%20skills.png)
+
+<h3>Insights</h3>
+
+- The top graph shows specialized technical skills like dplyr, Bitbucket, and Gitlab are associated with higher salaries, some reaching up to $200K, suggesting that advanced technical proficiency can increase earning potential.
+- The bottom graph highlights that foundational skills like Excel, PowerPoint, and SQL are the most in-demand, even though they may not offer the highest salaries. This demonstrates the importance of these core skills for employability in data analysis roles.
+- There's a clear distinction between the skills that are highest paid and those that are most in-demand. Data analysts aiming to maximize their career potential should consider developing a diverse skill set that includes both high-paying specialized skills and widely demanded foundational skills.
+
 <h2>4. What are the optimal skills for data analysts to learn? (High Demand AND High Paying)</h2>
 
 ```python
@@ -120,3 +152,16 @@ plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda y, pos: f'${int(y/1
 plt.tight_layout()
 plt.show()
 ```
+![A scatter plot visualizing the most optimal skills (high paying & high demand)](https://github.com/SaikatDaas/Python_Data_Analysis_Project/blob/1722dc5c341bdb5701aa87564ac88c1a2f602c75/Project%20Python/A%20scatter%20plot%20visualizing%20the%20most%20optimal%20skills%20(high%20paying%20%26%20high%20demand).png)
+
+<h3>Insights</h3>
+
+- The skill Oracle appears to have the highest median salary of nearly $97K, despite being less common in job postings. This suggests a high value placed on specialized database skills within the data analyst profession.
+- More commonly required skills like Excel and SQL have a large presence in job listings but lower median salaries compared to specialized skills like Python and Tableau, which not only have higher salaries but are also moderately prevalent in job listings.
+- Skills such as Python, Tableau, and SQL Server are towards the higher end of the salary spectrum while also being fairly common in job listings, indicating that proficiency in these tools can lead to good opportunities in data analytics.
+
+<h1>Challenges I Faced</h1>
+
+- Data Inconsistencies :- Handling missing or inconsistent data entries requires careful consideration and thorough data-cleaning techniques to ensure the integrity of the analysis.
+- Complex Data Visualization :- Designing effective visual representations of complex datasets was challenging but critical for conveying insights clearly and compellingly.
+- Balancing Breadth and Depth :- Deciding how deeply to dive into each analysis while maintaining a broad overview of the data landscape required constant balancing to ensure comprehensive coverage without getting lost in details.
