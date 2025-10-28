@@ -1,10 +1,10 @@
 <h1>Data Analysis using Python</h1>
 
-<h2>Overview :-</h2>
+<h2>Overview :</h2>
 
 This repository contains analysis of the data job market, focusing on data analyst roles. This project was created to navigate and understand the job market more effectively. It dives into the top-paying and in-demand skills to help find optimal job opportunities for data analysts.
 
-<h2>Tools used to dive into the data analyst job market :-</h2>
+<h2>Tools used to dive into the data analyst job market :</h2>
 
 1. Python
 2. Pandas Library
@@ -13,7 +13,7 @@ This repository contains analysis of the data job market, focusing on data analy
 5. Jupyter Notebooks
 6. Visual Studio Code
 
-<h2>Importing Libraries :-</h2>
+<h2>Importing Libraries :</h2>
 
 ```python
 import pandas as pd
@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import ast
 ```
-<h2>Cleaning up the data :-</h2>
+<h2>Cleaning up the data :</h2>
 
 ```python
 from datasets import load_dataset
@@ -31,7 +31,7 @@ df = dataset['train'].to_pandas()
 df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])
 df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else(x))
 ```
-<h2>Below are the questions answered in my project :-</h2>
+<h2>Below are the questions answered in my project :</h2>
 
 <h2>1. What are the skills most in demand for the top 3 most popular data roles?</h2>
 
@@ -166,12 +166,12 @@ plt.show()
 - More commonly required skills like Excel and SQL have a large presence in job listings but lower median salaries compared to specialized skills like Python and Tableau, which not only have higher salaries but are also moderately prevalent in job listings.
 - Skills such as Python, Tableau, and SQL Server are towards the higher end of the salary spectrum while also being fairly common in job listings, indicating that proficiency in these tools can lead to good opportunities in data analytics.
 
-<h2>Challenges Faced :-</h2>
+<h2>Challenges Faced :</h2>
 
 - Data Inconsistencies :- Handling missing or inconsistent data entries requires careful consideration and thorough data-cleaning techniques to ensure the integrity of the analysis.
 - Complex Data Visualization :- Designing effective visual representations of complex datasets was challenging but critical for conveying insights clearly and compellingly.
 - Balancing Breadth and Depth :- Deciding how deeply to dive into each analysis while maintaining a broad overview of the data landscape required constant balancing to ensure comprehensive coverage without getting lost in details.
 
-<h2>Conclusion :-</h2>
+<h2>Conclusion :</h2>
 
 This exploration into the data analyst job market has been incredibly informative, highlighting the critical skills and trends that shape this evolving field. The insights I got enhance my understanding and provide actionable guidance for anyone looking to advance their career in data analytics. As the market continues to change, ongoing analysis will be essential to stay ahead in data analytics. This project is a good foundation for future explorations and underscores the importance of continuous learning and adaptation in the data field.
